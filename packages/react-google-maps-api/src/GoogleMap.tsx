@@ -463,6 +463,7 @@ export class GoogleMap extends PureComponent<GoogleMapProps, GoogleMapState> {
   }
 
   render(): ReactNode {
+    console.log("GoogleMap Render !")
     return (
       <div
         id={this.props.id}
